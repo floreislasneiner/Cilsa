@@ -1,0 +1,59 @@
+* { margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(mar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.form-registro {
+    width: 400px;
+    background-color:cadetblue;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.form-registro h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width:350px;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-size: 18px;
+
+}
+
+.form-registro .botton {
+    width: 100%;
+    background-color: rgb(75, 128, 224);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+small {
+display: none;
+}
+
+.was-validated small {
+    display: block;
+    color: red;
+
+}
